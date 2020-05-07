@@ -1,0 +1,101 @@
+html{overflow-x: hidden;}
+.body{font-family: 'Open Sans'; font-weight: 400;text-align: center;}
+p{font-family: 'Open Sans'; font-weight: 400}
+h1{font-family: 'Poppins', sans-serif;font-weight: 700;}
+h2{font-family: 'Poppins', sans-serif;font-weight: 700;padding: 8% 0%}
+h3{font-family: 'Open Sans'; font-weight: 400; font-size: 2rem;}
+.container-fluid{margin: 0%;padding: 0}
+
+.headersection{font-family: 'Open Sans'}
+/* intro section */
+.introsection{padding: 5% 5% 0%;text-align: center;font-family: 'Open Sans'}
+.intro{margin-top: 5%}
+.introdescription{width: 45%; margin: 0 auto;padding: 4% 0 }
+.screen-img{display: block;width: 75%;margin: 5% auto;}
+
+
+/* stats section */
+.stats{padding: 0% 25% 5%}
+.card,.card-header, .card-body,.card-footer{border: none; background:none;}
+.stat{font-size: 4rem;font-weight: 900;white-space: nowrap;}
+.stat-subtitle{color:#808080;}
+
+/* waves */
+.waves{width: 100%};
+
+/* feature1 section */
+.feature1{padding: 0%}
+.feature1text{background-color: #F5FAFF ; padding: 0% 5%}
+.grow-together-logo{width: 70%;margin-left: 10%}
+
+
+/* feature2 section */
+.feature2{padding: 0%}
+.feature2text{padding:5%}
+
+/* feature3 section */
+.feature{padding: 0%}
+.feature3text{background-color: #F5FAFF;padding: 0% 5%}
+
+/* cta section */
+.ctatext{text-align: center;padding: 10%}
+.ctatext h1 {padding-bottom: 5%}
+
+
+/* contact section */
+.contact{background-color: #00252E; color: #fff; padding: 5% 10%}
+.footer-logo {filter: invert(1);height: 2rem;margin-bottom: 5%}
+.contactdetails{padding: 2% 0%}
+.social-icon{font-size: 2rem; margin: 5% 2% 0% 0%;}
+.input-group{margin: 10% 0%}
+
+
+/* footer section */
+.attribution{color: #00252E;padding:0%;margin:0.5% 0%;text-align: center;font-size: 11px;}
+.attribution a{color:#00252E}
+
+/* button */
+.title-logo{width: 10rem;}
+.sign-up-btn{border: 1px solid #FF52BF ; border-radius: 15px ; color:#FF52BF;}
+.sign-up-btn:hover{background-color:#FF52BF;color: white}
+
+
+.getstarted {
+	background-color:#FF52BF;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:16px 37px;
+	text-decoration:none;
+	text-shadow:0px ;
+}
+.getstarted:hover {
+	background-color:#ff61c5;
+  text-decoration: none;
+  color:#ffffff;
+
+}
+.getstarted:active {
+	position:relative;
+	top:1px;
+}
+.subscribebtn{
+background-color:#FF52BF;
+ color:#ffffff;
+
+}
+
+.subscribebtn:hover {
+   background-color:#ff61c5;
+ text-decoration: none;
+ color:#ffffff;}
+
+ @media(max-width:991px) {
+   body{text-align: center;}
+}
+
+/* NOTES: */
+/* just use body next time to center align. */
